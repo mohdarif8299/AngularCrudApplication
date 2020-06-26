@@ -1,0 +1,10 @@
+.students-list {
+    box-shadow: #f0f0f0 2px 0px 8px 5px;
+    padding: 15px;
+}
+input#myInput {
+    margin-bottom: 20px;
+    border-radius: 0px;
+    padding: 20px;
+    justify-content: center;
+}

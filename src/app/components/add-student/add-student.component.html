@@ -1,0 +1,18 @@
+<div class="container">
+    <form [formGroup]="form" (ngSubmit)="submitForm()">
+       
+        <div class="form-group input-group-md">
+            <input class="form-control" style="margin-top: 10px;"  placeholder="Name" formControlName="name" required>
+            <input class="form-control"  style="margin-top: 10px;" placeholder="Email" formControlName="email" inputmode="email" required>
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-danger btn-block btn-md">Add Student</button>
+        </div>
+
+        <p *ngIf="studentAddedd" class="alert alert-success">
+            <strong>{{ studentAddedd }} <a routerLink="/">Back</a></strong>
+            </p>
+
+    </form>
+</div>

@@ -1,0 +1,22 @@
+.item {
+    display: inline-block;
+    box-shadow: #dadada 0px 1px 5px 0px;
+    padding: 10px;
+    margin-left: 15px;
+    max-width: 48% !important;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+a.mat-tab-link.mat-focus-indicator {
+    text-decoration: none;
+}
+a.mat-tab-link.mat-focus-indicator:hover {
+    text-decoration: none;
+}
+.row.menu-item {
+    margin-left: 0px !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    box-shadow: #dadada 2px 0px 5px 1px !important;
+    display: inline-block !important;
+}
