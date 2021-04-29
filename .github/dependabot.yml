@@ -1,0 +1,46 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.22
+    - 14.14.23
+    - 14.14.25
+    - 14.14.26
+    - 14.14.27
+    - 14.14.28
+    - 14.14.29
+    - 14.14.31
+    - 14.14.32
+    - 14.14.33
+    - 14.14.34
+    - 14.14.35
+    - 14.14.36
+    - 14.14.37
+    - 14.14.39
+    - 14.14.41
+    - 15.0.0
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: jasmine-core
+    versions:
+    - 3.6.0
+    - 3.7.0
+  - dependency-name: rxjs
+    versions:
+    - 6.6.3
+    - 6.6.6
+  - dependency-name: "@angular-devkit/build-angular"
+    versions:
+    - 0.901.13
+    - 0.901.14
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
